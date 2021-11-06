@@ -3,7 +3,7 @@ import _superagent from 'superagent';
 
 const superagent = superagentPromise(_superagent, global.Promise);
 
-const API_ROOT = 'http://20.120.99.60:3000/api';
+const API_ROOT = 'http://td2580.eastus.cloudapp.azure.com:3000/api';
 
 const encode = encodeURIComponent;
 const responseBody = res => res.body;
